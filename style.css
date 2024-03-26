@@ -1,0 +1,84 @@
+html,body{
+       margin: 0;
+       font-family: 'Poppins', sans-serif;
+       background-color:rgb(240, 240, 76);
+}
+
+
+#word div, #word h2{
+    display: flex;
+    justify-content: center; 
+}
+
+h2{
+    color:balck;
+    letter-spacing: 0.2px;
+}
+
+textarea{
+    border-radius: 5px;
+    border: 2px solid black;
+    margin-top:30px ;
+    background-color:white;
+    width:250px;
+    padding: 10px;
+    height:10em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+#word{
+    height:380px;
+    width:400px;
+    margin:200px auto;
+    background-color:#ffeba7;
+    border-radius:10px;
+    padding:30px;
+}
+
+
+
+button{
+    margin-top:20px;
+    background-color:red;
+    border-radius: 4px;
+    height: 44px;
+    font-weight: 600;
+    padding: 0 30px;
+    letter-spacing: 1px;
+    border: none;
+    color: black;
+}
+
+
+button:hover{
+    cursor:pointer;
+}
+
+
+#result{
+    color:black;
+    margin-top:20px;
+    font-size:32px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

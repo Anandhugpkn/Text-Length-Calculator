@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Text Length Calculator</title>
+</head>
+<body>
+    <div id="word">
+        <h2>Text Length Calculator</h2>
+        <div>
+            <textarea id="inputText" placeholder="Enter text here" cols="30" rows="10"></textarea>
+        </div>
+
+        <div>
+            <button onclick="calculate()">Calculate Length</button>
+        </div>
+
+        <div id="result"></div>
+    </div>
+  
+    <script>
+        function calculate() {
+            var text = document.getElementById("inputText").value;
+            var charCount = text.length;
+            document.getElementById("result").innerHTML = "Length of the text is: " + charCount;
+        }
+    </script>
+</body>
+</html>
